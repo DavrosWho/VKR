@@ -1,4 +1,4 @@
-package org.example.vkr.exceprion;
+package org.example.vkr.exception;
 
 public class UserNotFoundException extends RuntimeException{
 

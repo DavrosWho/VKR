@@ -11,5 +11,11 @@ public interface UserService {
     void addUser(User user);
     boolean isExistByUsername(String username);
     void deleteUser(Long id);
-    //void editUser(User user);
+    void deleteUserByUsername(String username);
+    void editUser(User user);
+    List<User> getAllUsersByProjectId(Long id);
+
+    List<User> getAllUsersByModuleId(Long id);
+
+    void editAvatarUrl(Long userId, String avatarUrl);
 }
